@@ -1,0 +1,900 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Sai Kiran",
+            "email": "sai@example.com",
+            "password": "password123",
+            "role": "guest"
+        },
+        {
+            "id": 2,
+            "name": "Admin User",
+            "email": "admin@hotel.com",
+            "password": "admin",
+            "role": "admin"
+        },
+        {
+            "id": 3,
+            "name": "sai",
+            "email": "sai@gmail.com",
+            "password": "sai2002",
+            "role": "guest"
+        },
+        {
+            "id": 4,
+            "name": "Test User",
+            "email": "test@example.com",
+            "password": "Password123!",
+            "role": "guest"
+        }
+    ],
+    "rooms": [
+        {
+            "id": 1,
+            "type": "Deluxe Room - Early Bird",
+            "price": 6200,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 2,
+            "type": "Urban Loft",
+            "price": 9250,
+            "features": [
+                "King Bed",
+                "Exposed Brick",
+                "City Skyline View",
+                "Kitchen"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 3,
+            "type": "Deluxe Room",
+            "price": 5400,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 4,
+            "type": "Premium Suite",
+            "price": 9600,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 5,
+            "type": "Family Suite - Corner",
+            "price": 7150,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 6,
+            "type": "Family Suite",
+            "price": 8000,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1667125095636-dce94dcbdd96?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 7,
+            "type": "Business Class",
+            "price": 5350,
+            "features": [
+                "King Bed",
+                "Ergonomic Workspace",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 8,
+            "type": "Premium Suite",
+            "price": 9450,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1587985064135-0366536eab42?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 9,
+            "type": "Business Class",
+            "price": 7050,
+            "features": [
+                "King Bed",
+                "Ergonomic Workspace",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 10,
+            "type": "Standard Room",
+            "price": 4100,
+            "features": [
+                "Queen Bed",
+                "Free WiFi",
+                "Smart TV",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 11,
+            "type": "Family Suite",
+            "price": 7550,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 12,
+            "type": "Business Class",
+            "price": 5650,
+            "features": [
+                "King Bed",
+                "Ergonomic Workspace",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1639678349557-ffe5bed73ce7?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 13,
+            "type": "Deluxe Room",
+            "price": 6250,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 14,
+            "type": "Executive Suite",
+            "price": 6700,
+            "features": [
+                "King Bed",
+                "Living Room",
+                "Jacuzzi",
+                "Panoramic View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1621293954908-907159247fc8?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 15,
+            "type": "Family Suite",
+            "price": 8300,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631049035182-249067d7618e?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 16,
+            "type": "Family Suite",
+            "price": 7700,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1718359759373-1b2670b7478b?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 17,
+            "type": "Deluxe Room - Premium",
+            "price": 5850,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631048730670-ff5cd0d08f15?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 18,
+            "type": "Mountain Retreat",
+            "price": 8350,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1572987669554-0ba2ba9aee1f?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 19,
+            "type": "Mountain Retreat",
+            "price": 7500,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1605346576608-92f1346b67d6?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 20,
+            "type": "Premium Suite - Corner",
+            "price": 8100,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 21,
+            "type": "Deluxe Room",
+            "price": 5500,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631049307290-bb947b114627?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 22,
+            "type": "Deluxe Room",
+            "price": 5650,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1578898886615-0c4719f932dc?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 23,
+            "type": "Mountain Retreat",
+            "price": 7700,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631015108968-ba3b87f89005?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 24,
+            "type": "Cozy Single",
+            "price": 4050,
+            "features": [
+                "Single Bed",
+                "Work Desk",
+                "Free WiFi",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1713762523087-41019a875741?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 25,
+            "type": "Urban Loft",
+            "price": 6600,
+            "features": [
+                "King Bed",
+                "Exposed Brick",
+                "City Skyline View",
+                "Kitchen"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1592230228921-df3a88a2244e?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 26,
+            "type": "Premium Suite",
+            "price": 9600,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631049035115-f96132761a38?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 27,
+            "type": "Family Suite",
+            "price": 8150,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1613553474179-e1eda3ea5734?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 28,
+            "type": "Standard Room",
+            "price": 4450,
+            "features": [
+                "Queen Bed",
+                "Free WiFi",
+                "Smart TV",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 29,
+            "type": "Premium Suite",
+            "price": 8100,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631049307305-1ceea96fb0e1?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 30,
+            "type": "Urban Loft",
+            "price": 7000,
+            "features": [
+                "King Bed",
+                "Exposed Brick",
+                "City Skyline View",
+                "Kitchen"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1578898887932-dce23a595ad4?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 31,
+            "type": "Business Class - Corner",
+            "price": 5150,
+            "features": [
+                "King Bed",
+                "Ergonomic Workspace",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1613977257441-dd57bd5aaf70?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 32,
+            "type": "Cozy Single",
+            "price": 4300,
+            "features": [
+                "Single Bed",
+                "Work Desk",
+                "Free WiFi",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1737517302831-e7b8a8eaa97c?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 33,
+            "type": "Business Class",
+            "price": 6550,
+            "features": [
+                "King Bed",
+                "Ergonomic Workspace",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1651513825857-9fda9d5729fe?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 34,
+            "type": "Mountain Retreat - High Floor",
+            "price": 6250,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1611892441796-ae6af0ec2cc8?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 35,
+            "type": "Family Suite",
+            "price": 7050,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1648132274182-1bd07089d2c9?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 36,
+            "type": "Premium Suite",
+            "price": 8800,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631048835049-b0b7ee4be40b?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 37,
+            "type": "Garden View Room - Corner",
+            "price": 4850,
+            "features": [
+                "Queen Bed",
+                "Garden Access",
+                "Quiet Zone",
+                "Free WiFi"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1612152605347-f93296cb657d?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 38,
+            "type": "Premium Suite - Special Offer",
+            "price": 9550,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1647792855184-af42f1720b91?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 39,
+            "type": "Garden View Room",
+            "price": 4650,
+            "features": [
+                "Queen Bed",
+                "Garden Access",
+                "Quiet Zone",
+                "Free WiFi"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1701725047112-ecfe6c4f0cad?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 40,
+            "type": "Premium Suite - Special Offer",
+            "price": 8250,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631048730653-fe02e0784236?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 41,
+            "type": "Cozy Single",
+            "price": 4400,
+            "features": [
+                "Single Bed",
+                "Work Desk",
+                "Free WiFi",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 42,
+            "type": "Business Class - High Floor",
+            "price": 6650,
+            "features": [
+                "King Bed",
+                "Ergonomic Workspace",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1594563703937-fdc640497dcd?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 43,
+            "type": "Mountain Retreat",
+            "price": 7250,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1662466819164-f4f9f74e5c00?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 44,
+            "type": "Mountain Retreat",
+            "price": 6650,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1521783988139-89397d761dce?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 45,
+            "type": "Premium Suite",
+            "price": 9450,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631048835135-3e8ac5e99ba0?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 46,
+            "type": "Premium Suite",
+            "price": 9800,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1619011502686-b512e3989a33?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 47,
+            "type": "Premium Suite",
+            "price": 8100,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1631048730752-0c4101180d7b?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 48,
+            "type": "Deluxe Room - Premium",
+            "price": 5750,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 49,
+            "type": "Mountain Retreat - Premium",
+            "price": 6100,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1544097935-e6d136448533?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 50,
+            "type": "Standard Room",
+            "price": 4050,
+            "features": [
+                "Queen Bed",
+                "Free WiFi",
+                "Smart TV",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1546967900-1bea5f16b69d?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 51,
+            "type": "Mountain Retreat",
+            "price": 7650,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1645131506334-bb66f3f02bcc?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 52,
+            "type": "Mountain Retreat",
+            "price": 5850,
+            "features": [
+                "Queen Bed",
+                "Fireplace",
+                "Mountain View",
+                "Patio"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1592229505678-cf99a9908e03?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 53,
+            "type": "Family Suite",
+            "price": 8050,
+            "features": [
+                "2 King Beds",
+                "Kitchenette",
+                "Living Area",
+                "Kids Play Area"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1617603000835-087feeddd422?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 54,
+            "type": "Urban Loft",
+            "price": 6550,
+            "features": [
+                "King Bed",
+                "Exposed Brick",
+                "City Skyline View",
+                "Kitchen"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 55,
+            "type": "Executive Suite - Premium",
+            "price": 7100,
+            "features": [
+                "King Bed",
+                "Living Room",
+                "Jacuzzi",
+                "Panoramic View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 56,
+            "type": "Garden View Room",
+            "price": 4800,
+            "features": [
+                "Queen Bed",
+                "Garden Access",
+                "Quiet Zone",
+                "Free WiFi"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1711059985570-4c32ed12a12c?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 57,
+            "type": "Deluxe Room",
+            "price": 6250,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 58,
+            "type": "Deluxe Room",
+            "price": 5850,
+            "features": [
+                "King Bed",
+                "Ocean View",
+                "Mini Bar",
+                "Balcony"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&q=80&w=800",
+            "available": false
+        },
+        {
+            "id": 59,
+            "type": "Premium Suite",
+            "price": 8200,
+            "features": [
+                "High Floor",
+                "Premium Bar",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1549638441-b787d2e11f14?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        },
+        {
+            "id": 60,
+            "type": "Business Class",
+            "price": 5800,
+            "features": [
+                "King Bed",
+                "Ergonomic Workspace",
+                "Lounge Access",
+                "City View"
+            ],
+            "image_url": "https://images.unsplash.com/photo-1590675560125-0d832b9d719e?auto=format&fit=crop&q=80&w=800",
+            "available": true
+        }
+    ],
+    "bookings": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "room_id": 2,
+            "check_in": "2026-03-11",
+            "check_out": "2026-03-14",
+            "guests": 2,
+            "special_request": "Extra pillows, quiet room requested.",
+            "total_price": 540,
+            "status": "Confirmed",
+            "created_at": "2026-03-09 23:53:27"
+        },
+        {
+            "id": 2,
+            "user_id": "f5f3449b-2493-480e-a8be-47e2e1be9fd0",
+            "room_id": 1,
+            "check_in": "2026-03-10",
+            "check_out": "2026-03-11",
+            "guests": 2,
+            "special_request": "late check in ",
+            "total_price": 120.0,
+            "status": "Confirmed",
+            "created_at": "2026-03-09 23:59:01"
+        },
+        {
+            "id": 3,
+            "user_id": "1ea64a15-9991-4cfb-97e0-bb7350a8f26c",
+            "room_id": 5,
+            "check_in": "2026-03-10",
+            "check_out": "2026-03-13",
+            "guests": 2,
+            "special_request": "South indian food require",
+            "total_price": 2550.0,
+            "status": "Confirmed",
+            "created_at": "2026-03-10 01:41:17"
+        }
+    ],
+    "guest_preferences": [
+        {
+            "user_id": 1,
+            "preferred_room": "Deluxe Room",
+            "food_preference": "Vegan / Plant-based",
+            "temperature_preference": "20\u00b0C / 68\u00b0F",
+            "previous_stays": 4
+        }
+    ],
+    "leads": [
+        {
+            "id": 1,
+            "name": "Jane Smith",
+            "email": "jane@example.com",
+            "interaction_type": "Chatbot Pricing Inquiry",
+            "status": "Contacted"
+        },
+        {
+            "id": 2,
+            "name": "Mark Johnson",
+            "email": "mark.j@example.com",
+            "interaction_type": "Abondoned Booking (Penthouse)",
+            "status": "Pending"
+        },
+        {
+            "id": 3,
+            "name": "User f5f3449b-2493-480e-a8be-47e2e1be9fd0",
+            "email": "userf5f3449b-2493-480e-a8be-47e2e1be9fd0@demo.com",
+            "interaction_type": "Completed Booking",
+            "status": "Booked"
+        },
+        {
+            "id": 4,
+            "name": "User 1ea64a15-9991-4cfb-97e0-bb7350a8f26c",
+            "email": "user1ea64a15-9991-4cfb-97e0-bb7350a8f26c@demo.com",
+            "interaction_type": "Completed Booking",
+            "status": "Booked"
+        }
+    ],
+    "ai_insights": {
+        "predicted_busy_days": [
+            "Friday",
+            "Saturday",
+            "Upcoming Holiday Week"
+        ],
+        "cleaning_schedule": "Priority Focus: Penthouse, 3 Deluxe Rooms requiring deep clean post-checkout.",
+        "staff_workload": "Surge expected this weekend. Recommending scheduling 3 extra housekeepers and 1 extra valet."
+    }
+}
