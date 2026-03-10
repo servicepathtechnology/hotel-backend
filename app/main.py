@@ -13,8 +13,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173", 
+        "http://localhost:5174",
         "http://localhost:3000",
-        "https://hotel-room-booking-liard.vercel.app"
+        "https://hotel-room-booking-liard.vercel.app",
+        "https://hotel-admin-swart.vercel.app"
     ], 
     allow_credentials=True,
     allow_methods=["*"],
